@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: patient-portal-frontend
-          image: quay.io/redhatintegration/patient-portal-frontend:devnation
+          image: quay.io/redhatintegration/patient-portal-frontend:devnation-v2
           ports:
             - containerPort: 8080
           env:
